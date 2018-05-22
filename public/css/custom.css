@@ -1,0 +1,201 @@
+body
+{
+	padding-top: 15px;
+	background: #fafafa;
+}
+
+.icon-task-nav
+{
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	display: block;
+	color: #fff;
+}
+
+.card
+{
+	border-radius: 2px;
+	border: none;
+	margin-bottom: 15px;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14), 0 3px 3px -2px rgba(0, 0, 0, .2), 0 1px 8px 0 rgba(0, 0, 0, .12);
+	transition: all .25s linear;
+}
+
+.card:hover
+{
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+a.add-task
+{
+	width: 150px;
+	background: #FFD600;
+	border-radius: 5px;
+	margin: -45px auto 0px auto;
+	padding: 7px;
+	text-align: center;
+	color: #fff;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14), 0 3px 3px -2px rgba(0, 0, 0, .2), 0 1px 8px 0 rgba(0, 0, 0, .12);
+}
+
+.add-task:hover
+{
+	background: #F9D932;
+}
+
+.active-top-menu:hover
+{
+	background: #F9D932;
+}
+
+a
+{
+	text-decoration: none !important;
+}
+
+hr
+{
+	margin-top: 0px;
+}
+
+a i.icon-task-nav:hover
+{
+	color: #FFD600;
+}
+
+.icon-task-nav-left
+{
+	display: flex !important;
+}
+
+span.icon-task-nav-left
+{
+	font-size: 16px;
+	color: #fff;
+}
+
+.task-nav
+{
+	border-top: 1px solid #424242; 
+}
+
+.top-menu
+{
+	background: none;
+	border: none;
+}
+
+.top-menu:hover
+{
+	cursor: pointer;
+}
+
+.active-top-menu
+{
+	width: 150px;
+	background: #FFD600;
+	border-radius: 3px;
+	border: none;
+	color: #fff;
+	margin-bottom: 15px;
+	padding: 5px;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14), 0 3px 3px -2px rgba(0, 0, 0, .2), 0 1px 8px 0 rgba(0, 0, 0, .12);
+}
+
+.flex
+{
+	display: flex;
+}
+
+.time-icon 
+{
+	display: block; 
+	font-size: 20px !important;
+}
+
+.padding-0
+{
+	padding: 0px !important;
+}
+
+.time-text
+{
+	display: block; 
+	margin-top: 1px; 
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+.padding-small
+{
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.padding-p
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: capitalize;
+}
+
+.padding-h3
+{
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	text-transform: capitalize;
+}
+
+.edit-icon
+{
+	float: right;
+	width: 20px;
+	display: block;
+	color: #212529;
+}
+
+.input-field
+{
+	margin: 10px;
+	padding: 5px;
+	display: block;
+	border: 1px solid #d2cece;
+	border-radius: 3px;
+	background: #fafafa;
+	color: #333;
+}
+
+.btn
+{
+	margin: 10px;
+	background: #FFD600;
+	color: #fff;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14), 0 3px 3px -2px rgba(0, 0, 0, .2), 0 1px 8px 0 rgba(0, 0, 0, .12);
+	display: block;
+}
+
+.btn:hover
+{
+	background: #F9D932;
+}
+
+.card-no-hover:hover
+{
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14), 0 3px 3px -2px rgba(0, 0, 0, .2), 0 1px 8px 0 rgba(0, 0, 0, .12);
+}
+
+:focus {
+	outline: 0 !important;
+}
+
+.errorMessageForm
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 14px;
+	color: red;
+	margin: 0px;
+}
